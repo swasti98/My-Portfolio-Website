@@ -403,7 +403,7 @@ nav a:hover:after { width: 100%; }
     padding: 1.5em 4em;
     border-radius: 40px;
     width:1350px;
-    height:250px;
+    height:290px;
     -webkit-box-shadow: 0px 2px 13px -1px #FF0000;
 	-moz-box-shadow: 0px 2px 13px -1px #FF0000;
 	box-shadow: 0px 2px 13px -1px  #FF0000;
@@ -1006,7 +1006,7 @@ animations
     background: #fff;
     transition: all linear 0.15s;
     font-size: 1.5em;
-    color:#7D0552 ;
+    color: #7D0552;
     text-indent: 2em;
     text-decoration: none;
     padding: 31px 0;
