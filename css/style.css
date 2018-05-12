@@ -40,7 +40,7 @@ body a:hover{
 /*-- header --*/
 .header {
     padding: 1em 0;
-    background:#0b98ea;
+    background:#7D0541;
 }
 .logo h1 {
     font-size: 3em;
@@ -264,7 +264,7 @@ nav {
 	padding-top: 4em;
 }
 #menuToggle {
-    background: #f5810b;
+    background: #2B65EC;
     display: block;
     position: fixed;
     height: 40px;
@@ -309,7 +309,7 @@ nav a {
     letter-spacing: 1px;
 }
 nav a:after {
-	background: #f5810b;
+	background: #2B65EC;
 	content: '';
 	display: block;
 	height: 2px;
@@ -322,7 +322,7 @@ nav a:after {
 }
 nav a:hover:after { width: 100%; }
 .menu nav a:hover,.menu nav a:focus {
-    color: #f5810b;
+    color: ;
 }
 .open nav {
     right: 0;
@@ -384,19 +384,27 @@ nav a:hover:after { width: 100%; }
 	padding: 5em 0;
 }
 .agile-w3l-ab {
-    background: #fff;
+    background: #FFD700;
     border: 23px solid #fff;
 	padding:0;
-	-webkit-box-shadow: -2px 7px 27px -4px rgba(0,0,0,0.75);
-	-moz-box-shadow: -2px 7px 27px -4px rgba(0,0,0,0.75);
-	box-shadow: -2px 7px 27px -4px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -2px 7px 27px -4px #7D0552;
+	-moz-box-shadow: -2px 7px 27px -4px #7D0552;
+	box-shadow: -2px 7px 27px -4px #7D0552;
 }
 .w3ls-agile-left {
     padding: 2.4em 3em;
-    background: #0b98ea;
-	-webkit-box-shadow: 4px 4px 14px -2px rgba(0,0,0,0.75);
-	-moz-box-shadow: 4px 4px 14px -2px rgba(0,0,0,0.75);
-	box-shadow: 4px 4px 14px -2px rgba(0,0,0,0.75);
+    background: #0020C2;
+	-webkit-box-shadow: 4px 4px 14px -2px #7D0552;
+	-moz-box-shadow: 4px 4px 14px -2px #7D0552;
+	box-shadow: 4px 4px 14px -2px  #7D0552;
+}
+.sw {
+    background-color: #810541;
+    padding: 2.5em 4em;
+    -webkit-box-shadow: 0px 2px 13px -1px #7D0552;
+	-moz-box-shadow: 0px 2px 13px -1px #7D0552;
+	box-shadow: 0px 2px 13px -1px  #7D0552;
+    
 }
 .w3ls-agile-left-info {
     padding: 1em 0;
@@ -419,7 +427,7 @@ nav a:hover:after { width: 100%; }
 h3.w3l-title {
     text-align: center;
     font-size: 3.5em;
-    color: #0b98ea;
+    color: #6C2DC7;
 	Position:relative;
 	margin-bottom: 1.3em;
 }
@@ -664,7 +672,7 @@ h3.w3l-title:after {
     position: relative;
     text-align: center;
     cursor: default;
-    background: rgba(245, 129, 11, 0.82);
+    background: #F6358A;
     -moz-border-radius: 6px;
     -o-border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -704,7 +712,7 @@ h3.w3l-title:after {
    transition: all 0.3s ease-in-out;
 }
 .view-fifth .mask {
-  background-color:#0b98ea;
+  background-color:#008080;
    -webkit-transform: translateX(-300px);
    -moz-transform: translateX(-300px);
    -o-transform: translateX(-300px);
@@ -1149,25 +1157,25 @@ a.accordion-section-title span {
     left: 41.45%;
 }
 .address-grid {
-    background-color: #fff;
+    background-color: #7FE817;
     padding: 3em 4em;
-    -webkit-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 13px -1px #7D0552;
+    -moz-box-shadow: 0px 2px 13px -1px #7D0552;
+    box-shadow: 0px 2px 13px -1px #7D0552;
 }
 .address-info {
-    background-color: #fff;
+    background-color: #7FE817;
     padding: 2.5em 4em;
-	-webkit-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 2px 13px -1px #7D0552;
+    -moz-box-shadow: 0px 2px 13px -1px #7D0552;
+    box-shadow: 0px 2px 13px -1px #7D0552;
 }
 .address-info.address-mdl {
     margin: 2em 0;
 }
 .address h4 {
     font-size: 2.5em;
-    color:#0b98ea;
+    color:#7D0552;
     margin-bottom: 0.8em;
 }
 .address-info h4 {
@@ -1175,7 +1183,7 @@ a.accordion-section-title span {
 }
 .address input[type="text"], .address input[type="email"] {
     width: 100%;
-    color: #000;
+    color: #0000A0;
     background: none;
     outline: none;
     font-size: 1em;
@@ -1207,8 +1215,8 @@ a.accordion-section-title span {
     letter-spacing: 1px;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #f5810b;
-    border: solid 1px #f5810b;
+    background:  #6C2DC7;
+    border: solid 1px #9F000F;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1255,7 +1263,7 @@ a.accordion-section-title span {
 /*-- //introduce --*/
 /*-- footer --*/
 .footer {
-    background: #232323;
+    background: #0000A0;
 	text-align: center;
 	padding: 4em 0em;
 }
@@ -1281,7 +1289,7 @@ a.accordion-section-title span {
     border:  1px solid #616161;
 }
 .w3ls-social-icons-2 i:hover {
-	background: #0b98ea;
+	background: #6A287E;
     color: #fff;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
