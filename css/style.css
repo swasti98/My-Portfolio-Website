@@ -399,11 +399,14 @@ nav a:hover:after { width: 100%; }
 	box-shadow: 4px 4px 14px -2px  #7D0552;
 }
 .sw {
-    background-color: #810541;
-    padding: 2.5em 4em;
-    -webkit-box-shadow: 0px 2px 13px -1px #7D0552;
-	-moz-box-shadow: 0px 2px 13px -1px #7D0552;
-	box-shadow: 0px 2px 13px -1px  #7D0552;
+    background-color: #4B0082 ;
+    padding: 1.5em 4em;
+    border-radius: 40px;
+    width:1350px;
+    height:250px;
+    -webkit-box-shadow: 0px 2px 13px -1px #FF0000;
+	-moz-box-shadow: 0px 2px 13px -1px #FF0000;
+	box-shadow: 0px 2px 13px -1px  #FF0000;
     
 }
 .w3ls-agile-left-info {
@@ -1003,7 +1006,7 @@ animations
     background: #fff;
     transition: all linear 0.15s;
     font-size: 1.5em;
-    color: #f5810b;
+    color:#7D0552 ;
     text-indent: 2em;
     text-decoration: none;
     padding: 31px 0;
@@ -1011,7 +1014,7 @@ animations
     font-weight: 600;
 }
 .accordion-section-title.active, .accordion-section-title:hover,.accordion-section-title.focus {
-    color: #0b98ea;
+    color: #2B65EC;
 	text-decoration:none;
 }
 .accordion-section:last-child .accordion-section-title {
