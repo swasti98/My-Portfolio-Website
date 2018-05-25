@@ -404,9 +404,9 @@ nav a:hover:after { width: 100%; }
     border-radius: 40px;
     width:1350px;
     height:290px;
-    -webkit-box-shadow: 0px 2px 13px -1px #FF0000;
-	-moz-box-shadow: 0px 2px 13px -1px #FF0000;
-	box-shadow: 0px 2px 13px -1px  #FF0000;
+    -webkit-box-shadow: 0px 2px 13px -1px  #7D0552;
+	-moz-box-shadow: 0px 2px 13px -1px  #7D0552;
+	box-shadow: 0px 2px 13px -1px   #7D0552;
     
 }
 .w3ls-agile-left-info {
@@ -668,18 +668,19 @@ h3.w3l-title:after {
     margin-top: 1.7em;
 }
 .view {
-    width: 288px;
+    width: 280px;
     height: 297px;
     float: left;
     overflow: hidden;
     position: relative;
     text-align: center;
     cursor: default;
-    background: #F6358A;
+    background: #1F45FC;
     -moz-border-radius: 6px;
     -o-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
+    
 }
 .view .mask,.view .content {
   	width: 290px;
@@ -715,7 +716,7 @@ h3.w3l-title:after {
    transition: all 0.3s ease-in-out;
 }
 .view-fifth .mask {
-  background-color:#008080;
+  background-color:#7D0552;
    -webkit-transform: translateX(-300px);
    -moz-transform: translateX(-300px);
    -o-transform: translateX(-300px);
